@@ -1,0 +1,76 @@
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+  <div class="container">
+    <h1 class="pull-left"></i>Nosotros</h1>
+  </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== Content Part ===-->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 reg-page">
+      <div>
+        <div class="service">
+          <i class="icon-group service-icon"></i>
+          <div class="desc">
+            <h4>¿Quienes Somos?</h4>
+            <p>
+              Somos un enlace multicultural entre comunidades estudiantiles, para así formar líderes en lo profesional y personal" El SROB LATIN AMERICA está conformado por miembros estudiantiles de ASME de diversos países quienes trabajan en conjunto para brindar apoyo y guía a las secciones estudiantiles. Difundir la cultura de ASME y mejorar la participación de las secciones estudiantiles dentro de la Región Latino America. A su vez debe servir de nexo entre los miembros estudiantiles y las oficinas centrales de ASME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="service">
+          <i class="icon-road service-icon"></i>
+          <div class="desc">
+            <h4>¿Que es ASME?</h4>
+            <p>
+              ASME es el acrónimo de American Society of Mechanical Engineers (Sociedad Americana de Ingenieros Mecánicos) es una organización que permite la colaboración, la transmisión del conocimiento y el desarrollo de habilidades entre todas las disciplinas de ingeniería, al tiempo que promociona el papel del ingeniero en la sociedad. La misión de ASME es servir a diversas comunidades globales a través de adelantar, difundir y aplicar el conocimiento de ingeniería para mejorar la calidad de vida, y compartir lo emocionante que es la ingeniería.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="service">
+          <i class="icon-road service-icon"></i>
+          <div class="desc">
+            <h4>Nuestra Misión</h4>
+            <p>
+              Somos un grupo de representantes estudiantiles de la Región Latino América que buscamos influir y colaborar en la formación de líderes y secciones estudiantiles de ASME en nuestra Región, fomentando el intercambio de experiencias y conocimientos en el área de la ingeniería.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="service">
+          <i class="icon-eye-open service-icon"></i>
+          <div class="desc">
+            <h4>Nuestra Visión</h4>
+            <p>
+              Como Student Regional Team Latinoamérica queremos llegar a ser reconocidos, por ser el nexo entre las secciones estudiantiles y profesionales dentro de la Región, profesionales ligados a ASME y la industria dentro de ASME internacional.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="service">
+          <i class="icon-compass service-icon"></i>
+          <div class="desc">
+            <h4>Nuestros Valores</h4>
+            <ul>
+              <li>Cultivar la integridad y adoptar una conducta ética.</li>
+              <li>Mantener un ambiente de libertad de pensamiento y aporte de ideas.</li>
+              <li>Reconocer los logros y corregir cortésmente.</li>
+              <li>Abrazar la diversidad y respetar la dignidad y la cultura de todas las personas.</li>
+              <li>Promover los beneficios de la educación continua y la educación de ingeniería.</li>
+              <li>Promover la contribución técnica y social de los estudiantes de ingeniería.</li>
+              <li>Contribuir al desarrollo íntegro y profesional de los miembros estudiantiles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/row-->
+</div><!--/container-->
+<!--=== End Content Part ===-->

@@ -1,0 +1,195 @@
+/*Promo Page
+------------------------------------*/
+/*Slider Part*/
+.fullwidthbanner-container.slider-promo {
+	max-height: 460px !important;
+}
+
+.slider-promo-info-bg {
+	padding: 25px 20px 20px;
+	background: url(../img/bg-black.png) repeat;
+}
+
+.slider-promo-info span.big-size { 
+	color: #fff;
+	display: block;
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-shadow: 0 !important;
+}
+
+.slider-promo-info p {
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+/*Promo Box*/
+.promo-box {
+	padding: 20px;
+	margin: 25px 0 20px;
+	text-align: center;
+}
+
+.promo-box i {
+	font-size: 50px;
+}
+
+.promo-box p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.promo-box strong,
+.promo-box strong a {
+	color: #555;
+	font-size: 20px;
+	display: block;
+	margin: 20px 0 15px;
+	font-weight: 200; 
+}
+
+.promo-box:hover strong, 
+.promo-box:hover strong a {
+	color: #e74c3c;
+}
+
+/*Promo Work*/
+.promo-work {
+	margin: 20px 0;
+}
+
+/*Promo Service*/
+.promo-service {
+	margin: 20px 0;
+}
+
+.promo-service a.btn-u {
+	margin: 0 20px 10px 0;
+}
+
+.promo-service .carousel {
+	margin-top: 10px;
+}
+
+/*Promo Elements*/
+.title-box {
+	margin: 20px 0;
+	padding: 40px 0;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: solid 1px #eee;
+}
+
+.title-box .title-box-text {
+	color: #555;
+	display: block;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.block-blockquote {
+	margin: 20px 0; 
+	text-align: center;
+	border: dashed 1px #ccc;
+}
+
+.block-blockquote-inner {
+	padding: 15px; 
+}
+
+.block-blockquote p {
+	font-size: 26px;
+	margin-bottom: 0;
+}
+
+.sequence-inner,
+.sequence-inner h2,
+.sequence-inner .info p  {
+	background: none;
+}
+/* End Inner Slider */
+
+.sequence-inner {
+  background: #fff;
+  border-bottom: solid 2px #e8e7e7; 
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#97D9F6));
+  background: -webkit-linear-gradient(#fff, #97D9F6);
+  background: -moz-linear-gradient(#fff, #97D9F6);
+  background: -ms-linear-gradient(#fff, #97D9F6);
+  background: -o-linear-gradient(#fff, #97D9F6);
+  background: linear-gradient(#fff, #97D9F6)
+}
+
+#sequence-theme {
+  color: #fff;
+  font-family:'Open Sans', sans-serif;
+  max-width: 2560px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  /* prevent graphical glitches in WebKit browsers when using transitions */
+}
+
+#sequence-theme #sequence {
+  min-height: 420px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1400px;
+}
+#sequence-theme .info {
+  position: absolute;
+  font-size: 1.5em;
+  left: 15%;
+  line-height: 1.4em;
+  top: 120px;
+  width: 40%;
+  z-index: 10;
+  vertical-align: middle;
+}
+#sequence-theme h2 {
+	color:#fff;
+	font-size: 2em;
+	line-height: 1.2em;
+	padding:5px 8px;
+	display:inline-block;
+  box-shadow: none;
+  font-weight: 200;
+	background:rgba(27, 170, 229, 0.8);
+}
+#sequence-theme .info p {
+  color: #fff;
+  font-size: 20px;
+	padding:5px 10px;
+  background:rgba(27, 170, 229, 0.8);
+}
+@-webkit-keyframes spin-right{0{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}@-o-keyframes spin-right{0{-o-transform:rotate(0)}100%{-o-transform:rotate(360deg)}}@-moz-keyframes spin-right{0{-moz-transform:rotate(0)}100%{-moz-transform:rotate(360deg)}}@keyframes spin-right{0{transform:rotate(0)}100%{transform:rotate(360deg)}}
+@-webkit-keyframes spin-left{0{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(-360deg)}}@-o-keyframes spin-left{0{-o-transform:rotate(0)}100%{-o-transform:rotate(-360deg)}}@-moz-keyframes spin-left{0{-moz-transform:rotate(0)}100%{-moz-transform:rotate(-360deg)}}@keyframes spin-left{0{transform:rotate(0)}100%{transform:rotate(-360deg)}}
+#gear-1 {
+	position: absolute;
+	right:5px;
+	bottom:80px;
+	-webkit-animation:spin-right 120s linear infinite;
+	-moz-animation:spin-right 120s linear infinite;
+	-o-animation:spin-right 120s linear infinite;
+	animation:spin-right 120s linear infinite
+}
+#gear-2{
+	position: absolute;
+	right:210px;
+	bottom:-100px;
+	-webkit-animation:spin-left 120s linear infinite;
+	-moz-animation:spin-left 120s linear infinite;
+	-o-animation:spin-left 120s linear infinite;
+	animation:spin-left 120s linear infinite
+}
+#gear-3{
+	position: absolute;
+	right:35px;
+	bottom:-80px;
+	-webkit-animation:spin-left 70s linear infinite;
+	-moz-animation:spin-left 70s linear infinite;
+	-o-animation:spin-left 70s linear infinite;
+	animation:spin-left 70s linear infinite
+}

@@ -1,0 +1,61 @@
+<!--=== Slider ===-->
+<div id="sequence-theme" class="sequence-inner">
+  <div id="sequence">
+    <div class="info">
+      <h2>Srob - Latin America</h2>
+      <p>Student Regional Operationg Board - Latin America</p>
+    </div>
+    <img id="gear-1" src="<%= static_path(@conn, "/images/engranaje1.png") %>">
+    <img id="gear-2" src="<%= static_path(@conn, "/images/engranaje2.png") %>">
+    <img id="gear-3" src="<%= static_path(@conn, "/images/engranaje3.png") %>">
+  </div>
+</div><!--/sequence-theme-->
+<!--=== End Slider ===-->
+<!--=== Purchase Block ===-->
+<div class="purchase">
+  <div class="container">
+    <!-- Service Blocks -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="service">
+          <i class="icon-road service-icon"></i>
+          <div class="desc">
+            <h4>MISIÓN</h4>
+            <p>
+              Somos un grupo de representantes estudiantiles de la Región Latino América que buscamos influir y colaborar en la formación de líderes y secciones estudiantiles de ASME en nuestra Región, fomentando el intercambio de experiencias y conocimientos en el área de la ingeniería.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service">
+          <i class="icon-eye-open service-icon"></i>
+          <div class="desc">
+            <h4>VISIÓN</h4>
+            <p>
+              Como Student Regional Team Latinoamérica queremos llegar a ser reconocidos, por ser el nexo entre las secciones estudiantiles y profesionales dentro de la Región, profesionales ligados a ASME y la industria dentro de ASME internacional.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div><!--/row-->
+    <!-- End Service Blokcs -->
+  </div>
+</div><!--/row-->
+<!-- End Purchase Block -->
+<!--=== Content Part ===-->
+<!--<div class="container">
+<div id="clients-flexslider" class="flexslider home clients">
+<div class="headline"><h2>Afiliados</h2></div>
+<div class="image_carousel">
+<div id="foo1">
+<img src="img/clients/basadre.jpg" alt="" />
+<img src="img/clients/senorsipan.jpg" alt="" />
+<img src="img/clients/callao.jpg" alt="" />
+<img src="img/clients/sanluis.jpg" alt="" />
+</div>
+</div>
+</div>
+</div>--><!--/container-->
+<!-- End Content Part -->

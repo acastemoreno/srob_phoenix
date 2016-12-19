@@ -1,0 +1,10 @@
+<script type="text/javascript" src="<%= static_path(@conn, "/js/home.js") %>"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        Home.init();
+        Home.initBxSlider();
+    });
+    $(window).load(function() {
+        Home.initSliders();
+    });
+</script>

@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Hello SrobPhoenix!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-  </head>
-
-  <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+<html lang="es">
+<head>
+  <title>Srob Latin America</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="SROB"/>
+  <meta property="og:description" content="SROB"/>
+  <!-- CSS Global Compulsory-->
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="<%= static_path(@conn, "/favicon.ico") %>">
+  <!-- CSS Page Style -->
+  <%= css(assigns[:css], @conn) %>
+</head>
+<body>
+  <!--=== Header ===-->
+  <div class="header">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img id="logo-header" src="<%= static_path(@conn, "/images/logo.png") %>" alt="Logo">
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <%= rendering_link "Elixir.SrobPhoenix.HomeView.index", handler_view_action(@conn), home_path(@conn, :index), "Inicio"%>
+            <%= rendering_link "Elixir.SrobPhoenix.HomeView.nosotros", handler_view_action(@conn), home_path(@conn, :nosotros), "Nosotros"%>
+            <%= rendering_link "Elixir.SrobPhoenix.HomeView.directiva", handler_view_action(@conn), home_path(@conn, :directiva), "Directiva"%>
+            <li class="dropdown ">
+              <a href="#" class="dropdown-toggle">
+                Afiliados
+              </a>
+            </li>
+            <li class="dropdown ">
+              <a href="#" class="dropdown-toggle">
+                Eventos
+              </a>
+            </li>
+            <li class="dropdown ">
+              <a href="contacto.html" class="dropdown-toggle">
+                Contacto
+              </a>
+            </li>
           </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
-
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
-
-    </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-  </body>
+        </div><!-- /navbar-collapse -->
+      </div>
+    </div>
+  </div><!--/header-->
+  <!--=== End Header ===-->
+  <%= render @view_module, @view_template, assigns %>
+  <!--=== Copyright ===-->
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="copyright-space">
+            SROB &copy; 2016. All Rights Reserved.
+          </p>
+        </div>
+      </div><!--/row-->
+    </div><!--/container-->
+  </div><!--/copyright-->
+  <!--=== End Copyright ===-->
+  <!-- JS Global Compulsory -->
+  <script type="text/javascript" src="<%= static_path(@conn, "/js/vendor.js") %>"></script>
+  <!-- JS Page Level -->
+  <%= js(assigns[:js], @conn) %>
+</body>
 </html>

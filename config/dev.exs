@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :srob_phoenix, SrobPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "srob_phoenix_dev",
+  password: "123456789",
   database: "srob_phoenix_dev",
   hostname: "localhost",
   pool_size: 10

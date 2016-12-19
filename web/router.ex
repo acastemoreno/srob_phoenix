@@ -16,7 +16,9 @@ defmodule SrobPhoenix.Router do
   scope "/", SrobPhoenix do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    get "/", HomeController, :index
+    get "/nosotros", HomeController, :nosotros
+    get "/directiva", HomeController, :directiva
   end
 
   # Other scopes may use custom stacks.

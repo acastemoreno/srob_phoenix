@@ -1,0 +1,3 @@
+<li class="dropdown active">
+  <%= link "#{@texto}", to: "#", class: "dropdown-toggle"%>
+</li>

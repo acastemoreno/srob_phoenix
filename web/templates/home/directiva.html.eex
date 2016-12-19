@@ -1,0 +1,269 @@
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        <h1 class="pull-left"></i>Directiva</h1>
+    </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== Content Part ===-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Chair General</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Gutierrez Medina.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Gutierrez Medina, Jose Miguel</h3>
+                      <p>Pais: Venezuela</p>
+                      <p>Correo: jmgutierrez0811@gmail.com</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Gutierrez Medina.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Vice Chair General</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Orrala Vera.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Orrala Vera, Natalia Sofia</h3>
+                      <p>Pais: Ecuador</p>
+                      <p>Correo: norrala@espol.edu.ec</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Orrala Vera.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Program Chair</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Castellano Moreno.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Castellano Moreno, Albert Roman</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: acastemoreno@gmail.com</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Castellano Moreno.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Newsletter Editor</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/banderas/peru.png" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Flores Iberos, Alexander David</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: alexanderfloresiberos@gmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Marketing Membership Chair</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/banderas/venezuela.png" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Suarez Mata, Luis Ernesto</h3>
+                      <p>Pais: Venezuela</p>
+                      <p>Correo: luizsuarez10@hotmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Webmaster</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Arteaga Garcia.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Arteaga Garcia, Xainer Ernesto</h3>
+                      <p>Pais: Venezuela</p>
+                      <p>Correo: xainerd@gmail.com</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Arteaga Garcia.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Secretary</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Romero Muñoz.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Romero Muñoz, Joel Rafael</h3>
+                      <p>Pais: Ecuador</p>
+                      <p>Correo: joelromerom@gmail.com</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Romero Muñoz.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Translator Leader</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Sea Ordaya.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Sea Ordaya, Alexander Javier</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: sea_ordayaa2@asme.org</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Sea Ordaya.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Outgoing Chair</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Berverisco Morales.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Berverisco Morales, Ricardo</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: rberverisco_morales@asme.org</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Berverisco Morales.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Vice Chair Bolivia</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Vaca Ordoñez.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Vaca Ordoñez, Hermes Ibrahin</h3>
+                      <p>Pais: Bolivia</p>
+                      <p>Correo: hermesibrahinvaca@gmail.com</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Vaca Ordoñez.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Vice Chair Colombia</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Cortes Jimenez.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Cortes Jimenez, Jhon Jairo</h3>
+                      <p>Pais: Bolivia</p>
+                      <p>Correo: jjcortesj@unal.edu.co</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Cortes Jimenez.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Vice Chair Ecuador</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/banderas/peru.png" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Zuluaga Caamaño, Juan José</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: acastemoreno@gmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+       -->
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div class="panel-body">
+                <div class="headline"><h2>Vice Chair El Salvador</h2></div>
+                <div class="row">
+                  <div class="col-sm-4">
+                      <img width="100%" src="<%= static_path(@conn, "/images/directiva/Martínez Ortega.jpg") %>" alt="" />
+                  </div>
+                  <div class="col-sm-8 center">
+                      <h3>Martínez Ortega, Gerardo José</h3>
+                      <p>Pais: El Salvador</p>
+                      <p>Correo: gerardoo_martinez@hotmail.es</p>
+                      <a target="_blank" href="<%= static_path(@conn, "/cv/Martínez Ortega.pdf") %>">Curriculum Vitae</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Vice Chair Guatemala</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/banderas/peru.png" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Rodas, Roberto</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: acastemoreno@gmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Vice Chair Perú</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/directiva/Mendoza Pimentel.jpg" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Mendoza Pimentel, Marko Nannel</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: nex_122@hotmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 reg-page" style="text-align:center;">
+            <div >
+                <div class="headline"><h2>Vice Chair Venezuela</h2></div>
+                <div class="row">
+                  <div class="col-sm-3">
+                      <img width="100%" src="img/banderas/venezuela.png" alt="" />
+                  </div>
+                  <div class="col-sm-9">
+                      <h3>Gonzalez, Leonardo</h3>
+                      <p>Pais: Perú</p>
+                      <p>Correo: acastemoreno@gmail.com</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </div><!--/row-->
+</div><!--/container-->
+<!--=== End Content Part ===-->
