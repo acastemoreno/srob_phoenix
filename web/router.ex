@@ -19,6 +19,8 @@ defmodule SrobPhoenix.Router do
     get "/", HomeController, :index
     get "/nosotros", HomeController, :nosotros
     get "/directiva", HomeController, :directiva
+    get "/contacto", HomeController, :contacto
+    post "/contacto", HomeController, :contacto_post
   end
 
   # Other scopes may use custom stacks.

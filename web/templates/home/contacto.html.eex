@@ -1,0 +1,45 @@
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        <h1 class="pull-left"></i>Contacto</h1>
+    </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+<!--=== Content Part ===-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 reg-page">
+            <div class="panel-body">
+              <%= form_for @changeset, home_path(@conn, :contacto_post), [name: :contacto, class: "form-horizontal"], fn f -> %>
+                  <div class="form-group <%= error_tag(f, :nombre) |> error? %>">
+                      <%= label f, :nombre, "Apellidos y Nombres", class: "col-lg-4 control-label" %>
+                      <div class="col-lg-8">
+                          <%= text_input f, :nombre, class: "form-control" %>
+                          <%= error_tag f, :nombre %>
+                      </div>
+                  </div>
+                  <div class="form-group <%= error_tag(f, :email) |> error? %>">
+                      <%= label f, :email, "Email", class: "col-lg-4 control-label" %>
+                      <div class="col-lg-8">
+                          <%= email_input f, :email, class: "form-control" %>
+                          <%= error_tag f, :email %>
+                      </div>
+                  </div>
+                  <div class="form-group <%= error_tag(f, :mensaje) |> error? %>">
+                      <%= label f, :mensaje, "Mensaje", class: "col-lg-4 control-label" %>
+                      <div class="col-lg-8">
+                          <%= textarea f, :mensaje, class: "form-control" %>
+                          <%= error_tag f, :mensaje %>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-lg-offset-4 col-lg-10">
+                          <%= submit "Enviar Mensaje", class: "btn-u btn-u-green" %>
+                      </div>
+                  </div>
+              <% end %>
+            </div>
+        </div>
+    </div><!--/row-->
+</div><!--/container-->
+<!--=== End Content Part ===-->
