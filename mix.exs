@@ -19,7 +19,7 @@ defmodule SrobPhoenix.Mixfile do
   def application do
     [mod: {SrobPhoenix, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex, :bamboo]]
+                    :phoenix_ecto, :postgrex, :bamboo, :ueberauth, :ueberauth_facebook, :ueberauth_identity]]
   end
 
   # Specifies which paths to compile per environment.
@@ -38,7 +38,10 @@ defmodule SrobPhoenix.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:bamboo, "~> 0.8"}]
+     {:bamboo, "~> 0.8"},
+     {:ueberauth, "~> 0.4"},
+     {:ueberauth_facebook, "~> 0.6"},
+     {:ueberauth_identity, "~> 0.2"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

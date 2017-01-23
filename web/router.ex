@@ -23,6 +23,14 @@ defmodule SrobPhoenix.Router do
     post "/contacto", HomeController, :contacto_post
   end
 
+  scope "/auth", SrobPhoenix do
+    pipe_through :browser
+
+    get "/:provider", AuthController, :request
+    get "/:provider/callback", AuthController, :callback
+    post "/login/callback", AuthController, :identity_callback
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", SrobPhoenix do
   #   pipe_through :api

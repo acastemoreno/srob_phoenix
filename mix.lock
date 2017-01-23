@@ -13,6 +13,7 @@
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [:rebar3], []},
   "mime": {:hex, :mime, "1.0.1", "05c393850524767d13a53627df71beeebb016205eb43bfbd92d14d24ec7a1b51", [:mix], []},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
+  "oauth2": {:hex, :oauth2, "0.8.2", "3f3c9fef0ceb5ba80b6ed097ec98acc0d13f5869dce0ebbbbc521caa56077c12", [:mix], [{:hackney, "~> 1.6", [hex: :hackney, optional: false]}]},
   "phoenix": {:hex, :phoenix, "1.2.1", "6dc592249ab73c67575769765b66ad164ad25d83defa3492dc6ae269bd2a68ab", [:mix], [{:cowboy, "~> 1.0", [hex: :cowboy, optional: true]}, {:phoenix_pubsub, "~> 1.0", [hex: :phoenix_pubsub, optional: false]}, {:plug, "~> 1.1", [hex: :plug, optional: false]}, {:poison, "~> 1.5 or ~> 2.0", [hex: :poison, optional: false]}]},
   "phoenix_ecto": {:hex, :phoenix_ecto, "3.1.0", "4d4a91efed6bd28de899a2f5caf27be0f6fd04d85c259d3ede8fe63d766e0687", [:mix], [{:ecto, "~> 2.1", [hex: :ecto, optional: false]}, {:phoenix_html, "~> 2.6", [hex: :phoenix_html, optional: true]}, {:plug, "~> 1.0", [hex: :plug, optional: false]}]},
   "phoenix_html": {:hex, :phoenix_html, "2.8.0", "777598a4b6609ad6ab8b180f7b25c9af2904644e488922bb9b9b03ce988d20b1", [:mix], [{:plug, "~> 1.0", [hex: :plug, optional: false]}]},
@@ -23,4 +24,7 @@
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []},
   "postgrex": {:hex, :postgrex, "0.13.0", "e101ab47d0725955c5c8830ae8812412992e02e4bd9db09e17abb0a5d82d09c7", [:mix], [{:connection, "~> 1.0", [hex: :connection, optional: false]}, {:db_connection, "~> 1.1", [hex: :db_connection, optional: false]}, {:decimal, "~> 1.0", [hex: :decimal, optional: false]}]},
   "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []},
-  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], []}}
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], []},
+  "ueberauth": {:hex, :ueberauth, "0.4.0", "bc72d5e5a7bdcbfcf28a756e34630816edabc926303bdce7e171f7ac7ffa4f91", [:mix], [{:plug, "~> 1.2", [hex: :plug, optional: false]}]},
+  "ueberauth_facebook": {:hex, :ueberauth_facebook, "0.6.0", "51006ed2b8adac923ff1820f7357647f39832408a9a327a939bcfc736c1630de", [:mix], [{:oauth2, "~> 0.8.0", [hex: :oauth2, optional: false]}, {:ueberauth, "~> 0.4", [hex: :ueberauth, optional: false]}]},
+  "ueberauth_identity": {:hex, :ueberauth_identity, "0.2.3", "216f18ca24347f6b3dd0e5f4342b6fef7a4027fad0d133f1c454d51b7eaac55b", [:mix], [{:plug, "~> 1.0", [hex: :plug, optional: false]}, {:ueberauth, "~> 0.2", [hex: :ueberauth, optional: false]}]}}

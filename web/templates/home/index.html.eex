@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="service">
-          <i class="icon-road service-icon"></i>
+          <i class="fa fa-road service-icon"></i>
           <div class="desc">
             <h4>MISIÓN</h4>
             <p>
@@ -29,7 +29,7 @@
       </div>
       <div class="col-md-6">
         <div class="service">
-          <i class="icon-eye-open service-icon"></i>
+          <i class="fa fa-eye service-icon"></i>
           <div class="desc">
             <h4>VISIÓN</h4>
             <p>

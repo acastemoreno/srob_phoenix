@@ -5,7 +5,8 @@ exports.config = {
       joinTo: {
         "js/app.js": /^(web\/static\/js|node_modules)/,
         "js/vendor.js": /^(web\/static\/vendor\/jointo)|(deps)/,
-        "js/home.js": "web/static/vendor/home.js"
+        "js/home.js": "web/static/vendor/home.js",
+        "js/jquery.backstretch.min.js": "web/static/vendor/jquery.backstretch.min.js"
       }
 
       // To use a separate vendor.js bundle, specify two files path
@@ -27,7 +28,8 @@ exports.config = {
       joinTo: {
         "css/app.css": /^(web\/static\/css\/jointo)/,
         "css/home.css": "web/static/css/home.css",
-        "css/directiva.css": "web/static/css/directiva.css"
+        "css/directiva.css": "web/static/css/directiva.css",
+        "css/login.css": "web/static/css/login.css"
       },
       order: {
         after: ["web/static/css/jointo/app.css"] // concat app.css last

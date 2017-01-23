@@ -5,8 +5,8 @@
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="SROB"/>
-  <meta property="og:description" content="SROB"/>
+  <meta property="og:title" content="Srob Latin America"/>
+  <meta property="og:description" content="Srob Latin America"/>
   <!-- CSS Global Compulsory-->
   <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
@@ -48,13 +48,9 @@
                 Eventos
               </a>
             </li>
-            <li class="dropdown ">
-              <a href="contacto.html" class="dropdown-toggle">
-                Contacto
-              </a>
-            </li>
            -->
            <%= rendering_link "Elixir.SrobPhoenix.HomeView.contacto", handler_view_action(@conn), home_path(@conn, :contacto), "Contacto"%>
+           <%= rendering_link "Elixir.SrobPhoenix.AuthView.request", handler_view_action(@conn), auth_path(@conn, :request, "login"), "Login"%>
           </ul>
         </div><!-- /navbar-collapse -->
       </div>

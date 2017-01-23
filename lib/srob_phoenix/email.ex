@@ -5,7 +5,7 @@ defmodule SrobPhoenix.Email do
     new_email()
     |> to("acastemoreno@gmail.com")
     |> from("postmaster@sandbox197a0e9c4dff4faa97980aa2594c367a.mailgun.org")
-    |> subject("Mensaje Contacto desde pagina SROB-LatinAmerica")
+    |> subject("Mensaje Contacto desde pagina Srob Latin America")
     |> text_body(
       """
       Nombre: #{nombre}

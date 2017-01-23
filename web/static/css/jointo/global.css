@@ -6161,8 +6161,7 @@ a.btn-u-lg {
    padding: 0;
 }
 .social-icons li {
-   float: left;
-   display: inline;
+   display: inline-block;
    list-style: none;
    margin-right: 5px;
    margin-bottom: 5px;
@@ -6193,34 +6192,34 @@ a.btn-u-lg {
   opacity: 1;
 }
 
-.social_amazon {background: url(../img/icons/social/amazon.png) no-repeat;}
-.social_behance {background: url(../img/icons/social/behance.png) no-repeat;}
-.social_blogger {background: url(../img/icons/social/blogger.png) no-repeat;}
-.social_deviantart {background: url(../img/icons/social/deviantart.png) no-repeat;}
-.social_dribbble {background: url(../img/icons/social/dribbble.png) no-repeat;}
-.social_dropbox {background: url(../img/icons/social/dropbox.png) no-repeat;}
-.social_evernote {background: url(../img/icons/social/evernote.png) no-repeat;}
-.social_facebook {background: url(../img/icons/social/facebook.png) no-repeat;}
-.social_forrst {background: url(../img/icons/social/forrst.png) no-repeat;}
-.social_github {background: url(../img/icons/social/github.png) no-repeat;}
-.social_googleplus {background: url(../img/icons/social/googleplus.png) no-repeat;}
-.social_jolicloud {background: url(../img/icons/social/jolicloud.png) no-repeat;}
-.social_last-fm {background: url(../img/icons/social/last-fm.png) no-repeat;}
-.social_linkedin {background: url(../img/icons/social/linkedin.png) no-repeat;}
-.social_picasa {background: url(../img/icons/social/picasa.png) no-repeat;}
-.social_pintrest {background: url(../img/icons/social/pintrest.png) no-repeat;}
-.social_rss {background: url(../img/icons/social/rss.png) no-repeat;}
-.social_skype {background: url(../img/icons/social/skype.png) no-repeat;}
-.social_spotify {background: url(../img/icons/social/spotify.png) no-repeat;}
-.social_stumbleupon {background: url(../img/icons/social/stumbleupon.png) no-repeat;}
-.social_tumblr {background: url(../img/icons/social/tumblr.png) no-repeat;}
-.social_twitter {background: url(../img/icons/social/twitter.png) no-repeat;}
-.social_vimeo {background: url(../img/icons/social/vimeo.png) no-repeat;}
-.social_wordpress {background: url(../img/icons/social/wordpress.png) no-repeat;}
-.social_xing {background: url(../img/icons/social/xing.png) no-repeat;}
-.social_yahoo {background: url(../img/icons/social/yahoo.png) no-repeat;}
-.social_youtube {background: url(../img/icons/social/youtube.png) no-repeat;}
-.social_vk {background: url(../img/icons/social/vk.png) no-repeat;}
+.social_amazon {background: url(../images/icons/social/amazon.png) no-repeat;}
+.social_behance {background: url(../images/icons/social/behance.png) no-repeat;}
+.social_blogger {background: url(../images/icons/social/blogger.png) no-repeat;}
+.social_deviantart {background: url(../images/icons/social/deviantart.png) no-repeat;}
+.social_dribbble {background: url(../images/icons/social/dribbble.png) no-repeat;}
+.social_dropbox {background: url(../images/icons/social/dropbox.png) no-repeat;}
+.social_evernote {background: url(../images/icons/social/evernote.png) no-repeat;}
+.social_facebook {background: url(../images/icons/social/facebook.png) no-repeat;}
+.social_forrst {background: url(../images/icons/social/forrst.png) no-repeat;}
+.social_github {background: url(../images/icons/social/github.png) no-repeat;}
+.social_googleplus {background: url(../images/icons/social/googleplus.png) no-repeat;}
+.social_jolicloud {background: url(../images/icons/social/jolicloud.png) no-repeat;}
+.social_last-fm {background: url(../images/icons/social/last-fm.png) no-repeat;}
+.social_linkedin {background: url(../images/icons/social/linkedin.png) no-repeat;}
+.social_picasa {background: url(../images/icons/social/picasa.png) no-repeat;}
+.social_pintrest {background: url(../images/icons/social/pintrest.png) no-repeat;}
+.social_rss {background: url(../images/icons/social/rss.png) no-repeat;}
+.social_skype {background: url(../images/icons/social/skype.png) no-repeat;}
+.social_spotify {background: url(../images/icons/social/spotify.png) no-repeat;}
+.social_stumbleupon {background: url(../imagesg/icons/social/stumbleupon.png) no-repeat;}
+.social_tumblr {background: url(../images/icons/social/tumblr.png) no-repeat;}
+.social_twitter {background: url(../images/icons/social/twitter.png) no-repeat;}
+.social_vimeo {background: url(../images/icons/social/vimeo.png) no-repeat;}
+.social_wordpress {background: url(../images/icons/social/wordpress.png) no-repeat;}
+.social_xing {background: url(../images/icons/social/xing.png) no-repeat;}
+.social_yahoo {background: url(../images/icons/social/yahoo.png) no-repeat;}
+.social_youtube {background: url(../images/icons/social/youtube.png) no-repeat;}
+.social_vk {background: url(../images/icons/social/vk.png) no-repeat;}
 
 
 /*Font Awesome Icon Page*/
@@ -6576,7 +6575,7 @@ a.read-more:hover {
 /*
 .image_carousel {
    border: 1px solid #f6f6f6;
-   cursor: url(../img/scrolling-icon2.png), auto;
+   cursor: url(../images/scrolling-icon2.png), auto;
    width: 100%;
    height: 304px;
 }
@@ -6663,7 +6662,7 @@ a.read-more:hover {
 }
 
 .overlay-zoom .zoom-icon {
-   background-image:url("../img/overlay-icon.png");
+   background-image:url("../images/overlay-icon.png");
    background-color: #000;
    background-repeat: no-repeat;
    background-position: 50%;
@@ -6697,7 +6696,7 @@ a.read-more:hover {
 /*Revolution Slider
 ------------------------------------*/
 .bg-black-opacity {
-   background: url(../img/sliders/revolution/bg-text.png) repeat;
+   background: url(../images/sliders/revolution/bg-text.png) repeat;
    padding: 7px;
    text-shadow: none !important;
 }
@@ -8182,7 +8181,7 @@ ul.blog-tags a:hover i {
 
 .slider-promo-info-bg {
 	padding: 25px 20px 20px;
-	background: url(../img/bg-black.png) repeat;
+	background: url(../images/bg-black.png) repeat;
 }
 
 .slider-promo-info span.big-size {
@@ -8723,7 +8722,7 @@ a.read-more:hover {
 ------------------------------------*/
 /*Main Parallax Sldier*/
 .da-slide h2 i {
-	background:url(../../plugins/parallax-slider/img/bg-heading.png) repeat;
+	background:url(../../plugins/parallax-slider/images/bg-heading.png) repeat;
 }
 
 /*Sequence Parallax Sldier*/
