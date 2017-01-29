@@ -41,7 +41,8 @@ defmodule SrobPhoenix.Mixfile do
      {:bamboo, "~> 0.8"},
      {:ueberauth, "~> 0.4"},
      {:ueberauth_facebook, "~> 0.6"},
-     {:ueberauth_identity, "~> 0.2"}]
+     {:ueberauth_identity, "~> 0.2"},
+     {:distillery, "~> 1.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

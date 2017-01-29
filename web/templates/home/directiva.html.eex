@@ -96,7 +96,7 @@
                       <img width="100%" src="<%= static_path(@conn, "/images/directiva/Arteaga Garcia.jpg") %>" alt="" />
                   </div>
                   <div class="col-sm-8 center">
-                      <h3>Arteaga Garcia, Xainer Ernesto</h3>
+                      <h3>Arteaga Garcia, Xainer David</h3>
                       <p>Pais: Venezuela</p>
                       <p>Correo: xainerd@gmail.com</p>
                       <a target="_blank" href="<%= static_path(@conn, "/cv/Arteaga Garcia.pdf") %>">Curriculum Vitae</a>
@@ -177,7 +177,7 @@
                   </div>
                   <div class="col-sm-8 center">
                       <h3>Cortes Jimenez, Jhon Jairo</h3>
-                      <p>Pais: Bolivia</p>
+                      <p>Pais: Colombia</p>
                       <p>Correo: jjcortesj@unal.edu.co</p>
                       <a target="_blank" href="<%= static_path(@conn, "/cv/Cortes Jimenez.pdf") %>">Curriculum Vitae</a>
                   </div>

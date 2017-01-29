@@ -42,14 +42,4 @@ config :srob_phoenix, SrobPhoenix.Repo,
   hostname: "localhost",
   pool_size: 10
 
-config :ueberauth, Ueberauth,
-  providers: [
-    identity: {Ueberauth.Strategy.Identity, [
-      callback_methods: ["POST"],
-      request_path: "/auth/login",
-      callback_path: "/auth/login/callback"
-    ]},
-    facebook: {Ueberauth.Strategy.Facebook, []}
-  ]
-
 import_config "dev.secret.exs"

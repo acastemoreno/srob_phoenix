@@ -6,6 +6,6 @@ defmodule SrobPhoenix.AuthController do
   def request(conn, _params) do
     conn
       |> put_layout(false)
-      |> render "login.html", callback_url: Helpers.callback_url(conn)
+      |> render("login.html", callback_url: Helpers.callback_url(conn))
   end
 end
