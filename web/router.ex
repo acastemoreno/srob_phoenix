@@ -27,8 +27,7 @@ defmodule SrobPhoenix.Router do
     pipe_through :browser
 
     get "/:provider", AuthController, :request
-    get "/:provider/callback", AuthController, :callback
-    post "/login/callback", AuthController, :identity_callback
+    post "/:provider/callback", AuthController, :callback
   end
 
   # Other scopes may use custom stacks.

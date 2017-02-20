@@ -4,7 +4,7 @@ exports.config = {
     javascripts: {
       joinTo: {
         "js/app.js": /^(web\/static\/js|node_modules)/,
-        "js/vendor.js": /^(web\/static\/vendor\/jointo)|(deps)/,
+        "js/vendor.js": /^(web\/static\/vendor\/jointo)|(deps)|(priv\/static\/phoenix*)/,
         "js/home.js": "web/static/vendor/home.js",
         "js/jquery.backstretch.min.js": "web/static/vendor/jquery.backstretch.min.js"
       }

@@ -27,7 +27,8 @@ config :ueberauth, Ueberauth,
     identity: {Ueberauth.Strategy.Identity, [
       callback_methods: ["POST"],
       request_path: "/auth/login",
-      callback_path: "/auth/login/callback"
+      callback_path: "/auth/login/callback",
+      param_nesting: "usuario"
     ]},
     facebook: {Ueberauth.Strategy.Facebook, []}
   ]
